@@ -19,6 +19,8 @@ dependencies:
   google_fonts: ^7.0.0
   permission_handler: ^11.4.0
   shared_preferences: ^2.5.2
+  flutter_slidable: ^3.1.2
+  flutter_timezone: ^5.0.1
 
 dev_dependencies:
   flutter_test:

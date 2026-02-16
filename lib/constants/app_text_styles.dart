@@ -3,6 +3,14 @@ import 'package:google_fonts/google_fonts.dart';
 import 'app_colors.dart';
 
 class AppTextStyles {
+  static TextStyle displayMedium = GoogleFonts.poppins(
+    fontSize: 24,
+    fontWeight: FontWeight.w500,
+    color: AppColors.textPrimary,
+    height: 34 / 24,
+    letterSpacing: 0,
+  );
+
   static TextStyle heading = GoogleFonts.poppins(
     fontSize: 24,
     fontWeight: FontWeight.bold,
@@ -20,9 +28,12 @@ class AppTextStyles {
     color: AppColors.textPrimary,
   );
 
-  static TextStyle bodySmall = GoogleFonts.poppins(
+  static TextStyle bodySmall = GoogleFonts.oxygen(
     fontSize: 14,
+    fontWeight: FontWeight.w400,
     color: AppColors.textSecondary,
+    height: 1.2,
+    letterSpacing: 0,
   );
 
   static TextStyle button = GoogleFonts.poppins(

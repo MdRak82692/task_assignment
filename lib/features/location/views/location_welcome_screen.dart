@@ -27,13 +27,13 @@ class LocationWelcomeScreen extends StatelessWidget {
             Text(
               'Welcome! Your Smart\nTravel Alarm',
               textAlign: TextAlign.center,
-              style: AppTextStyles.heading.copyWith(fontSize: 28),
+              style: AppTextStyles.displayMedium.copyWith(fontSize: 28),
             ),
             const SizedBox(height: 15),
             Text(
               'Stay on schedule and enjoy every\nmoment of your journey.',
               textAlign: TextAlign.center,
-              style: AppTextStyles.bodySmall,
+              style: AppTextStyles.bodyLarge,
             ),
             const Spacer(),
             // Image Placeholder

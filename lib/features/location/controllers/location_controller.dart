@@ -1,3 +1,5 @@
+// ignore_for_file: deprecated_member_use
+
 import 'package:get/get.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:geocoding/geocoding.dart';
@@ -28,7 +30,9 @@ class LocationController extends GetxController {
               '${place.street}, ${place.locality}, ${place.country}';
         }
 
-        Get.toNamed('/home');
+        if (Get.currentRoute != '/home') {
+          Get.offNamed('/home');
+        }
       } else {
         Get.snackbar(
             'Permission Denied', 'Please enable location permissions.');
